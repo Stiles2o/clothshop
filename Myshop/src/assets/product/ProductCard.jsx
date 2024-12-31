@@ -1,12 +1,8 @@
-import axios from 'axios'
 import React, { useEffect, useState } from 'react'
 import Loader from '../Loader'
 import { useDispatch, useSelector } from 'react-redux'
-import { selectProducts, store_products } from '../redux/productSlice'
-import { toast } from 'react-toastify'
 import { ADD_TO_CART } from '../redux/cartSlice'
 import ReactPaginate from 'react-paginate'
-import { FatechProducts } from '../fatechProducts'
 
 const ProductCard = ({ products }) => {
     const dispatch = useDispatch()

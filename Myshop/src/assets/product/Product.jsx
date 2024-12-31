@@ -1,8 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import ProductCard from './ProductCard'
 import { useDispatch, useSelector } from 'react-redux'
-import { FatechProducts } from '../fatechProducts'
-import { selectProducts, store_products } from '../redux/productSlice'
 import { filterbycategory, filterbyprice, selectCategory, selectFilter, selectPrice, selectSearch } from '../redux/filtter'
 import { useLoaderData } from 'react-router-dom'
 

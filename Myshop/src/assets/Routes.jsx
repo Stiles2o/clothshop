@@ -18,7 +18,7 @@ import AddSlider from "./admin/AddSlider";
 import ViewSlider from "./admin/ViewSlider";
 import Checkout from "./checkout/Checkout";
 import { FetchOrder, Protected, ProtectedAdmin } from "./extrafile/hiddenlinks";
-import { FatechProducts } from "./fatechProducts";
+import { FatechProducts } from "../assets/FatechProducts";
 import Thankyou from "./admin/Thankyou";
 import MyOreders from "./myorders/MyOreders";
 import Orders from "./admin/Orders";

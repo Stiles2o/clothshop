@@ -1,0 +1,554 @@
+{
+  "users": [
+    {
+      "id": "6596",
+      "username": "Rohit",
+      "email": "rohit@gmail.com",
+      "password": "1234",
+      "cpassword": "1234",
+      "role": "1",
+      "createdAt": "2024-12-10T08:10:21.047Z"
+    },
+    {
+      "id": "4ec2",
+      "username": "Admin",
+      "email": "admin@gmail.com",
+      "password": "admin",
+      "cpassword": "admin",
+      "role": "0",
+      "createdAt": "2024-12-10T08:12:35.331Z"
+    },
+    {
+      "id": "382a",
+      "username": "mehul",
+      "email": "mehul@gmail.com",
+      "password": "Mehul@1234",
+      "cpassword": "Mehul@1234",
+      "role": "1",
+      "createdAt": "2024-12-26T19:31:24.903Z"
+    },
+    {
+      "id": "e140",
+      "username": "Rajesh Shiyani",
+      "email": "shiyanirajeshp@gmail.com",
+      "password": "Rajesh@1234",
+      "cpassword": "Rajesh@1234",
+      "role": "1",
+      "createdAt": "2024-12-30T12:58:32.473Z"
+    }
+  ],
+  "products": [
+    {
+      "id": "7993",
+      "name": "Kiwi Green Solid",
+      "category": "H-T-shirts",
+      "brand": "Your Print",
+      "stock": "20",
+      "sellingPrice": "500",
+      "originalPrice": "450",
+      "images": [
+        "http://res.cloudinary.com/rohitj/image/upload/v1734085035/products/lymh90xdwr7yvrmtaesr.jpg"
+      ],
+      "description": "T-shirt",
+      "editedAt": "2024-12-13T10:22:50.791Z"
+    },
+    {
+      "id": "be68",
+      "name": "Mens Fancy T-Shirt",
+      "category": "F-T-shirts",
+      "brand": "India Mart",
+      "stock": "10",
+      "sellingPrice": "400",
+      "originalPrice": "400",
+      "images": [
+        "http://res.cloudinary.com/rohitj/image/upload/v1733986387/products/lyrtodtoygarwzva9yag.jpg"
+      ],
+      "description": "T-shirt",
+      "createdAt": "2024-12-13T06:45:27.981Z"
+    },
+    {
+      "id": "0992",
+      "name": "Cream Shirt",
+      "category": "F-Shirts",
+      "brand": "Eton",
+      "stock": "10",
+      "sellingPrice": "300",
+      "originalPrice": "250",
+      "images": [
+        "http://res.cloudinary.com/rohitj/image/upload/v1734378166/products/yu7yfxir7y4onru73vb4.avif"
+      ],
+      "description": "Shirt",
+      "createdAt": "2024-12-16T19:42:52.310Z"
+    },
+    {
+      "id": "9bfe",
+      "name": "White Shirt Half Sleeve",
+      "category": "H-Shirts",
+      "brand": "Eton",
+      "stock": "30",
+      "sellingPrice": "200",
+      "originalPrice": "200",
+      "images": [
+        "http://res.cloudinary.com/rohitj/image/upload/v1734378312/products/uldvofg10t80bq8ge6k6.webp"
+      ],
+      "description": "Shirt",
+      "createdAt": "2024-12-16T19:45:17.589Z"
+    }
+  ],
+  "categorys": [
+    {
+      "id": "dde7",
+      "name": "H-T-shirts",
+      "image": "http://res.cloudinary.com/rohitj/image/upload/v1733985963/categories/hkwzsybcq0hvgtfcb9xs.webp",
+      "description": "T-shirt",
+      "createdAt": "2024-12-12T06:47:15.770Z",
+      "editedAt": "2024-12-12T09:03:09.183Z"
+    },
+    {
+      "id": "2420",
+      "name": "F-T-shirts",
+      "image": "http://res.cloudinary.com/rohitj/image/upload/v1733986387/categories/axoo6bnl0leoyxs4vxyr.jpg",
+      "description": "T-shirt",
+      "createdAt": "2024-12-12T06:53:15.730Z"
+    },
+    {
+      "id": "d80a",
+      "name": "F-Shirts",
+      "image": "http://res.cloudinary.com/rohitj/image/upload/v1733986967/categories/a5dwtxzvc5tab4aq2xzj.webp",
+      "description": "Shirt",
+      "createdAt": "2024-12-12T07:02:56.915Z"
+    },
+    {
+      "id": "b4ff",
+      "name": "H-Shirts",
+      "image": "http://res.cloudinary.com/rohitj/image/upload/v1733994829/categories/edkuqme8lnakfllkj89u.webp",
+      "description": "Shirt",
+      "createdAt": "2024-12-12T09:12:54.138Z",
+      "editedAt": "2024-12-12T09:13:52.215Z"
+    }
+  ],
+  "orders": [
+    {
+      "id": "a5eb",
+      "userId": "6596",
+      "email": "rohit@gmail.com",
+      "shippingAddress": {
+        "name": "Rohit Jamareeya",
+        "email": "rohit@gmail.com",
+        "mobile": "9512379672",
+        "city": "Porbadar",
+        "address": "Porbadar",
+        "postalcode": "360575"
+      },
+      "cartItems": [
+        {
+          "id": "7993",
+          "name": "Kiwi Green Solid",
+          "category": "H-T-shirts",
+          "brand": "Your Print",
+          "stock": "20",
+          "sellingPrice": "500",
+          "originalPrice": "450",
+          "images": [
+            "http://res.cloudinary.com/rohitj/image/upload/v1734085035/products/lymh90xdwr7yvrmtaesr.jpg"
+          ],
+          "description": "T-shirt",
+          "editedAt": "2024-12-13T10:22:50.791Z",
+          "qty": 1
+        },
+        {
+          "id": "be68",
+          "name": "Mens Fancy T-Shirt",
+          "category": "F-T-shirts",
+          "brand": "India Mart",
+          "stock": "10",
+          "sellingPrice": "400",
+          "originalPrice": "400",
+          "images": [
+            "http://res.cloudinary.com/rohitj/image/upload/v1733986387/products/lyrtodtoygarwzva9yag.jpg"
+          ],
+          "description": "T-shirt",
+          "createdAt": "2024-12-13T06:45:27.981Z",
+          "qty": 1
+        },
+        {
+          "id": "0992",
+          "name": "Cream Shirt",
+          "category": "F-Shirts",
+          "brand": "Eton",
+          "stock": "10",
+          "sellingPrice": "300",
+          "originalPrice": "250",
+          "images": [
+            "http://res.cloudinary.com/rohitj/image/upload/v1734378166/products/yu7yfxir7y4onru73vb4.avif"
+          ],
+          "description": "Shirt",
+          "createdAt": "2024-12-16T19:42:52.310Z",
+          "qty": 1
+        }
+      ],
+      "total": 1200,
+      "status": "In Progress",
+      "createdAt": "2024-12-24T11:01:10.412Z",
+      "orderDate": "12/24/2024",
+      "orderTime": "4:31:10 PM",
+      "paymentMethod": "cod"
+    },
+    {
+      "id": "e2fb",
+      "userId": "382a",
+      "email": "mehul@gmail.com",
+      "shippingAddress": {
+        "name": "Rohit Jamareeya",
+        "email": "mehul@gmail.com",
+        "mobile": "09512379672",
+        "city": "Porbadar",
+        "address": "Porbadar",
+        "postalcode": "360575"
+      },
+      "cartItems": [
+        {
+          "id": "be68",
+          "name": "Mens Fancy T-Shirt",
+          "category": "F-T-shirts",
+          "brand": "India Mart",
+          "stock": "10",
+          "sellingPrice": "400",
+          "originalPrice": "400",
+          "images": [
+            "http://res.cloudinary.com/rohitj/image/upload/v1733986387/products/lyrtodtoygarwzva9yag.jpg"
+          ],
+          "description": "T-shirt",
+          "createdAt": "2024-12-13T06:45:27.981Z",
+          "qty": 1
+        }
+      ],
+      "total": 400,
+      "status": "in progress",
+      "paymentMethod": "online",
+      "createdAt": "2024-12-26T20:27:36.258Z",
+      "orderDate": "12/27/2024",
+      "orderTime": "1:57:36 AM"
+    },
+    {
+      "id": "95a2",
+      "userId": "6596",
+      "email": "rohit@gmail.com",
+      "shippingAddress": {
+        "name": "Rohit Jamareeya",
+        "email": "rohit@gmail.com",
+        "mobile": "09512379672",
+        "city": "Porbadar",
+        "address": "Porbadar",
+        "postalcode": "360575"
+      },
+      "cartItems": [
+        {
+          "id": "0992",
+          "name": "Cream Shirt",
+          "category": "F-Shirts",
+          "brand": "Eton",
+          "stock": "10",
+          "sellingPrice": "300",
+          "originalPrice": "250",
+          "images": [
+            "http://res.cloudinary.com/rohitj/image/upload/v1734378166/products/yu7yfxir7y4onru73vb4.avif"
+          ],
+          "description": "Shirt",
+          "createdAt": "2024-12-16T19:42:52.310Z",
+          "qty": 1
+        }
+      ],
+      "total": 300,
+      "status": "Shipped",
+      "paymentMethod": "online",
+      "createdAt": "2024-12-26T20:35:00.096Z",
+      "orderDate": "12/27/2024",
+      "orderTime": "2:05:00 AM",
+      "editedAt": "2024-12-30T11:51:16.254Z"
+    },
+    {
+      "id": "2724",
+      "userId": "6596",
+      "email": "rohit@gmail.com",
+      "shippingAddress": {
+        "name": "Rohit Jamareeya",
+        "email": "rohit@gmail.com",
+        "mobile": "09512379672",
+        "city": "Porbadar",
+        "address": "Porbadar",
+        "postalcode": "360575"
+      },
+      "cartItems": [
+        {
+          "id": "7993",
+          "name": "Kiwi Green Solid",
+          "category": "H-T-shirts",
+          "brand": "Your Print",
+          "stock": "20",
+          "sellingPrice": "500",
+          "originalPrice": "450",
+          "images": [
+            "http://res.cloudinary.com/rohitj/image/upload/v1734085035/products/lymh90xdwr7yvrmtaesr.jpg"
+          ],
+          "description": "T-shirt",
+          "editedAt": "2024-12-13T10:22:50.791Z",
+          "qty": 1
+        }
+      ],
+      "total": 500,
+      "status": "Delivered",
+      "paymentMethod": "online",
+      "createdAt": "2024-12-27T05:44:21.910Z",
+      "orderDate": "12/27/2024",
+      "orderTime": "11:14:21 AM",
+      "editedAt": "2024-12-30T11:48:28.446Z"
+    },
+    {
+      "id": "b63c",
+      "userId": "6596",
+      "email": "rohit@gmail.com",
+      "shippingAddress": {
+        "name": "Rohit Jamareeya",
+        "email": "rohitjamareeya@gmail.com",
+        "mobile": "09512379672",
+        "city": "Porbadar",
+        "address": "Porbadar",
+        "postalcode": "360575"
+      },
+      "cartItems": [
+        {
+          "id": "be68",
+          "name": "Mens Fancy T-Shirt",
+          "category": "F-T-shirts",
+          "brand": "India Mart",
+          "stock": "10",
+          "sellingPrice": "400",
+          "originalPrice": "400",
+          "images": [
+            "http://res.cloudinary.com/rohitj/image/upload/v1733986387/products/lyrtodtoygarwzva9yag.jpg"
+          ],
+          "description": "T-shirt",
+          "createdAt": "2024-12-13T06:45:27.981Z",
+          "qty": 1
+        }
+      ],
+      "total": 400,
+      "status": "In Progress",
+      "paymentMethod": "cod",
+      "createdAt": "2024-12-30T12:48:13.008Z",
+      "orderDate": "12/30/2024",
+      "orderTime": "6:18:13 PM"
+    },
+    {
+      "id": "580c",
+      "userId": "382a",
+      "email": "rohit@gmail.com",
+      "shippingAddress": {
+        "name": "Mehul Poriya",
+        "email": "rohitjamareeya@gmail.com",
+        "mobile": "09512379672",
+        "city": "Porbadar",
+        "address": "Porbadar",
+        "postalcode": "360575"
+      },
+      "cartItems": [
+        {
+          "id": "0992",
+          "name": "Cream Shirt",
+          "category": "F-Shirts",
+          "brand": "Eton",
+          "stock": "10",
+          "sellingPrice": "300",
+          "originalPrice": "250",
+          "images": [
+            "http://res.cloudinary.com/rohitj/image/upload/v1734378166/products/yu7yfxir7y4onru73vb4.avif"
+          ],
+          "description": "Shirt",
+          "createdAt": "2024-12-16T19:42:52.310Z",
+          "qty": 1
+        }
+      ],
+      "total": 300,
+      "status": "In Progress",
+      "paymentMethod": "cod",
+      "createdAt": "2024-12-30T12:53:25.625Z",
+      "orderDate": "12/30/2024",
+      "orderTime": "6:23:25 PM"
+    },
+    {
+      "id": "7112",
+      "userId": "e140",
+      "email": "shiyanirajeshp@gmail.com",
+      "shippingAddress": {
+        "name": "Rajesh",
+        "email": "shiyanirajeshp@gmail.com",
+        "mobile": "9484691226",
+        "city": "ranavav",
+        "address": "ranavav",
+        "postalcode": "360550"
+      },
+      "cartItems": [
+        {
+          "id": "be68",
+          "name": "Mens Fancy T-Shirt",
+          "category": "F-T-shirts",
+          "brand": "India Mart",
+          "stock": "10",
+          "sellingPrice": "400",
+          "originalPrice": "400",
+          "images": [
+            "http://res.cloudinary.com/rohitj/image/upload/v1733986387/products/lyrtodtoygarwzva9yag.jpg"
+          ],
+          "description": "T-shirt",
+          "createdAt": "2024-12-13T06:45:27.981Z",
+          "qty": 1
+        }
+      ],
+      "total": 400,
+      "status": "In Progress",
+      "paymentMethod": "cod",
+      "createdAt": "2024-12-30T12:59:29.201Z",
+      "orderDate": "12/30/2024",
+      "orderTime": "6:29:29 PM"
+    },
+    {
+      "id": "2ebe",
+      "userId": "e140",
+      "shippingAddress": {
+        "name": "Rajesh shiyani",
+        "email": "shiyanirajeshp@gmail.com",
+        "mobile": "9484691226",
+        "city": "ranavav",
+        "address": "ranavav",
+        "postalcode": "360550"
+      },
+      "cartItems": [
+        {
+          "id": "7993",
+          "name": "Kiwi Green Solid",
+          "category": "H-T-shirts",
+          "brand": "Your Print",
+          "stock": "20",
+          "sellingPrice": "500",
+          "originalPrice": "450",
+          "images": [
+            "http://res.cloudinary.com/rohitj/image/upload/v1734085035/products/lymh90xdwr7yvrmtaesr.jpg"
+          ],
+          "description": "T-shirt",
+          "editedAt": "2024-12-13T10:22:50.791Z",
+          "qty": 1
+        }
+      ],
+      "total": 500,
+      "status": "Placed",
+      "paymentMethod": "cod",
+      "createdAt": "2024-12-30T13:15:04.243Z",
+      "orderDate": "12/30/2024",
+      "orderTime": "6:45:04 PM",
+      "editedAt": "2024-12-31T10:49:12.938Z"
+    },
+    {
+      "id": "59a8",
+      "userId": "6596",
+      "shippingAddress": {
+        "name": "Rohit Jamareeya",
+        "email": "rohitjamareeya@gmail.com",
+        "mobile": "09512379672",
+        "city": "Porbadar",
+        "address": "Porbadar",
+        "postalcode": "360575"
+      },
+      "cartItems": [
+        {
+          "id": "9bfe",
+          "name": "White Shirt Half Sleeve",
+          "category": "H-Shirts",
+          "brand": "Eton",
+          "stock": "30",
+          "sellingPrice": "200",
+          "originalPrice": "200",
+          "images": [
+            "http://res.cloudinary.com/rohitj/image/upload/v1734378312/products/uldvofg10t80bq8ge6k6.webp"
+          ],
+          "description": "Shirt",
+          "createdAt": "2024-12-16T19:45:17.589Z",
+          "qty": 1
+        }
+      ],
+      "total": 200,
+      "status": "Placed",
+      "paymentMethod": "online",
+      "createdAt": "2024-12-31T10:52:20.983Z",
+      "orderDate": "12/31/2024",
+      "orderTime": "4:22:20 PM",
+      "editedAt": "2024-12-31T10:54:49.675Z"
+    },
+    {
+      "id": "5659",
+      "userId": "e140",
+      "shippingAddress": {
+        "name": "Rajesh shiyani",
+        "email": "shiyanirajeshp@gmail.com",
+        "mobile": "09512379672",
+        "city": "Porbadar",
+        "address": "Porbadar",
+        "postalcode": "360575"
+      },
+      "cartItems": [
+        {
+          "id": "be68",
+          "name": "Mens Fancy T-Shirt",
+          "category": "F-T-shirts",
+          "brand": "India Mart",
+          "stock": "10",
+          "sellingPrice": "400",
+          "originalPrice": "400",
+          "images": [
+            "http://res.cloudinary.com/rohitj/image/upload/v1733986387/products/lyrtodtoygarwzva9yag.jpg"
+          ],
+          "description": "T-shirt",
+          "createdAt": "2024-12-13T06:45:27.981Z",
+          "qty": 5
+        }
+      ],
+      "total": 2000,
+      "status": "In Progress",
+      "paymentMethod": "online",
+      "createdAt": "2024-12-31T11:01:15.478Z",
+      "orderDate": "12/31/2024",
+      "orderTime": "4:31:15 PM"
+    }
+  ],
+  "cart": [],
+  "sliders": [
+    {
+      "id": "503a",
+      "name": "Full Sleeve T-shirt for Men",
+      "image": "http://res.cloudinary.com/rohitj/image/upload/v1734083909/sliders/ccpzt9wf5qqogtfymifz.jpg",
+      "description": "T-shirt",
+      "createdAt": "2024-12-13T09:58:40.084Z"
+    },
+    {
+      "id": "af3c",
+      "name": "Half Sleeve T-shirts Mens",
+      "image": "http://res.cloudinary.com/rohitj/image/upload/v1734084095/sliders/obezl6o64go10ftg021e.webp",
+      "description": "T-shirt",
+      "createdAt": "2024-12-13T10:01:46.321Z"
+    },
+    {
+      "id": "4385",
+      "name": "Formal Shirts for Men",
+      "image": "http://res.cloudinary.com/rohitj/image/upload/v1734084121/sliders/lfcfu6gmxuvdbrjczxs2.webp",
+      "description": "Shirt",
+      "createdAt": "2024-12-13T10:02:08.329Z"
+    },
+    {
+      "id": "b1f9",
+      "name": "Half Sleeve Shirts Mens",
+      "image": "http://res.cloudinary.com/rohitj/image/upload/v1734084146/sliders/ejnirhurwgjdgeurvpys.webp",
+      "description": "Shirt",
+      "createdAt": "2024-12-13T10:02:33.312Z"
+    }
+  ]
+}

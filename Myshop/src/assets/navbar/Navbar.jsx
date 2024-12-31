@@ -8,7 +8,7 @@ import { useDispatch, useSelector } from 'react-redux'
 import { LOGOUT_USER, selectUsername } from '../redux/authSlice'
 import { selectCartItems } from '../redux/cartSlice'
 import { filterbysearch } from '../redux/filtter'
-import { FatechProducts } from './fatechProducts'
+import { FatechProducts } from '../FatechProducts'
 import { selectProducts, store_products } from '../redux/productSlice'
 
 const Navbar = () => {
